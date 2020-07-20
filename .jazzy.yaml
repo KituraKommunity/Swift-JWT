@@ -1,6 +1,6 @@
 module: SwiftJWT
 author: IBM
-github_url: https://github.com/IBM-Swift/Swift-JWT/
+github_url: https://github.com/KituraKommunity/Swift-JWT/
 
 theme: fullwidth
 clean: true

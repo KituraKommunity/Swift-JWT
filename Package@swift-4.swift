@@ -28,11 +28,11 @@ let package = Package(
         )
     ],
     dependencies: [
-        .package(url: "https://github.com/IBM-Swift/BlueRSA.git", from: "1.0.24"),
-        .package(url: "https://github.com/IBM-Swift/BlueCryptor.git", from: "1.0.0"),
-        .package(url: "https://github.com/IBM-Swift/BlueECC.git", from: "1.1.0"),
-        .package(url: "https://github.com/IBM-Swift/LoggerAPI.git", from: "1.7.0"),
-        .package(url: "https://github.com/IBM-Swift/KituraContracts.git", from: "1.1.0")
+        .package(url: "https://github.com/KituraKommunity/BlueRSA.git", from: "1.0.100"),
+        .package(url: "https://github.com/KituraKommunity/BlueCryptor.git", from: "1.0.100"),
+        .package(url: "https://github.com/KituraKommunity/BlueECC.git", from: "1.2.100"),
+        .package(url: "https://github.com/KituraKommunity/LoggerAPI.git", from: "1.9.100"),
+        .package(url: "https://github.com/KituraKommunity/KituraContracts.git", from: "1.2.100")
     ],
     targets: [
         .target(name: "SwiftJWT", dependencies: ["CryptorRSA", "LoggerAPI", "KituraContracts", "Cryptor", "CryptorECC"]),
